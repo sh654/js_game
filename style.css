@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background-image: url('Graphics/Symbol\ 3\ copy.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.airpump{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.pump-machine{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+.pump{
+    position: fixed;
+    bottom: 184px;
+    right: 10px;
+    width: 242px;
+    height: 160px;
+
+}
+
+.outlet{
+    position: fixed;
+    bottom: 33px;
+    right: 169px;
+    width: 203px;
+    height: 231px;
+    /* position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  transition: left 0.3s ease;  */
+}
+ 
+#ballon{
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 200px;
+    right: 305px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+      
